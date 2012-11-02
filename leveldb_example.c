@@ -14,7 +14,7 @@ int main() {
     /* OPEN */
 
     options = leveldb_options_create();
-    leveldb_options_set_create_if_missing(options, 1); // important
+    leveldb_options_set_create_if_missing(options, 1);
     db = leveldb_open(options, "testdb", &err);
 
     if (err != NULL) {
