@@ -13,6 +13,7 @@ Install LevelDB either by yourself or with a package manager. I recommend [Homeb
 Compile
 ---------------------------
 Compile with GCC:
+
     gcc -Wall -lleveldb leveldb_example.c
 
 
