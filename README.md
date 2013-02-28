@@ -14,7 +14,7 @@ Compile
 ---------------------------
 Compile with GCC:
 
-    gcc -Wall -lleveldb leveldb_example.c
+    gcc -Wall leveldb_example.c -lleveldb
 
 
 License
